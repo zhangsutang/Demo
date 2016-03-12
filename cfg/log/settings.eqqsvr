@@ -1,0 +1,41 @@
+#
+# 站内即时通信进程:eQQSvr
+# 日志设置文件          
+#
+
+# -----------------------------------------------
+# boost.log全局内核设置
+# -----------------------------------------------
+[Core]
+DisableLogging=false
+
+# -----------------------------------------------
+# boost.log日志槽->控制台
+# -----------------------------------------------
+#[Sinks.1]
+#Destination=Console
+#Format="%TimeStamp% <%Severity%> *** %Message%"
+
+# -----------------------------------------------
+# boost.log日志槽->文件
+# -----------------------------------------------
+[Sinks.2]
+Destination=TextFile
+FileName="../log/eQQSvr_%Y-%m-%d_%5N.log"
+Target="../log"
+Filter="%Severity% >= debug"
+RotationSize=10485760
+AutoFlush=true
+Format="%LineID% [%TimeStamp%] [%Severity%]\n\t%Message%\n"
+Asynchronous=false
+MaxSize=60000
+ScanForFiles="Matching"
+
+# -----------------------------------------------
+# boost.log日志槽->系统日志
+# -----------------------------------------------
+#[Sinks.3]
+#Destination=Syslog
+#Format="%LineID% [%TimeStamp%] [%Severity%]\t%Message%"
+#TargetAddress=localhost
+#Filter="%Severity% >= debug"
