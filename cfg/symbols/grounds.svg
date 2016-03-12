@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="720"
+   height="1008"
+   version="1.1"
+   style="fill:lightgray;stroke:black;stroke-width:1.5px">
+  <title>eSCADA ground</title>
+  <defs>
+    <symbol id="Ground">
+	  <title>接地</title>
+      <path
+         d="m 12,0 0,12"
+         style="fill:none;" />
+      <path
+         d="m 0,12 24,0"
+         style="fill:none" />
+      <path
+         d="m 4,15 16,0"
+         style="fill:none" />
+      <path
+         d="m 8,18 8,0"
+         style="fill:none" />
+    </symbol>
+    <symbol id="cable-terminal">
+	  <title>电缆终端头</title>
+		<path
+		   style="fill:none"
+		   d="m 6,8 12,0 -6,8 z" />
+		<path
+		   style="fill:none"
+		   d="m 12,0 0,24" />
+    </symbol>
+    <symbol id="spark-gap">
+	  <title>火花间隙</title>
+		<path
+		   d="m 9,4 3,6 3,-6 z" />
+		<path
+		   d="m 12,14 -3,6 6,0 z" />
+		<path
+		   d="m 12,1 0,3" />
+		<path
+		   d="m 12,23 0,-3" />
+    </symbol>
+  </defs>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#Ground" />
+    <use
+       x="72"
+       y="0"
+       xlink:href="#cable-terminal" />
+    <use
+       x="144"
+       y="0"
+       xlink:href="#spark-gap" />
+</svg>

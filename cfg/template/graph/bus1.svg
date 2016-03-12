@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" fill="#d3d3d3" height="100%" width="100%" stroke="#000000" version="1.1" stroke-width="1px" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1146 597" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<defs>
+<radialGradient id="radialGradient25966" gradientUnits="userSpaceOnUse" cy="12.869" cx="517.75" gradientTransform="matrix(2.7105 0 0 .26236 -2208 247.81)" r="110.03">
+<stop stop-color="#d20000" offset="0"/>
+<stop stop-color="#3500c8" stop-opacity="0" offset="1"/>
+</radialGradient>
+<symbol id="symbol7927">
+<rect y="44.343" width="150" x="28.9" height="500"/>
+</symbol>
+</defs>
+<g transform="translate(1464.3 -233.91)">
+<text style="word-spacing:0px;letter-spacing:0px" font-family="Sans" font-size="25px" y="260.3157" x="-916.37976" font-weight="bold" line-height="120.00000477%" fill="url(#radialGradient25966)">
+<tspan y="260.3157" x="-916.37976" fill="url(#radialGradient25966)">标题</tspan>
+</text>
+<rect y="272.89" fill-rule="evenodd" value="0" height="5.363" width="1088.4" iv="1" pointmap="yx:station:1,no:2,channel:1,rtu:1,address:2" x="-1435.4" stroke-width="1px" class="baseline"/>
+</g>
+<use class="cabinet" opacity=".35" xlink:href="#symbol7927" stroke-dasharray="1, 1" stroke-width="1" fill="#808080"/>
+</svg>

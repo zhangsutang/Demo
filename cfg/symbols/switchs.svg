@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="720"
+   height="1008"
+   version="1.1"
+   style="fill:lightgray;stroke:black;stroke-width:1px">
+  <title>eSCADA switch</title>
+  <defs>
+    <symbol id="y-contactor-off">
+	  <title>Y方向接触器分</title>
+		<path
+		   style="fill:none"
+		   d="m 36,0 0,32 c 0,0 8,-2 8,-5 0,-3 -8,-4 -8,-4" />
+		<path
+		   style="fill:none"
+		   d="M 36,72 36,48 56,27" />
+    </symbol>
+    <symbol id="y-contactor-on">
+	  <title>Y方向接触器合</title>
+		<path
+		   style="fill:none"
+		   d="m 36,0 0,32 c 0,0 8,-2 8,-5 0,-3 -8,-4 -8,-4" />
+		<path
+		   style="fill:none"
+		   d="M 36,72 36,48 44,27" />
+    </symbol>
+    <symbol id="y-contactor-on">
+	  <title>Y方向接触器合</title>
+    </symbol>
+    <symbol id="y-disconnector-off">
+	  <title>Y方向隔离刀闸分</title>
+      <path
+         style="fill:none;"
+         d="m 36,0 0,24" />
+      <path
+         style="fill:none"
+         d="M 36,72 36,48 52,24" />
+      <path
+         style="fill:none"
+         d="m 28,24 16,0" />
+    </symbol>
+    <symbol id="y-disconnector-on">
+	  <title>Y方向隔离刀闸合</title>
+		<path
+		   style="fill:none;stroke-linecap:round;"
+		   d="m 36,0 0,24" />
+		<path
+		   style="fill:none;stroke-linecap:round"
+		   d="m 28,24 16,0" />
+		<path
+		   style="fill:none;stroke-linecap:round"
+		   d="M 36,72 36,48 44,24" />
+    </symbol>
+    <symbol id="x-disconnector-on">
+	  <title>X方向隔离刀闸合</title>
+		<path
+		   style="fill:none;stroke-linecap:round;"
+		   d="m 0,36 24,0" />
+		<path
+		   style="fill:none;stroke-linecap:round"
+		   d="M 72,36 48,36 24,28" />
+		<path
+		   style="fill:none;stroke-linecap:round"
+		   d="M 24,44 24,28" />
+    </symbol>
+    <symbol id="x-disconnector-off">
+	  <title>X方向隔离刀闸分</title>
+		<path
+		   style="fill:none;"
+		   d="m 0,36 24,0" />
+		<path
+		   style="fill:none"
+		   d="M 72,36 48,36 24,20" />
+		<path
+		   style="fill:none"
+		   d="M 24,44 24,28" />
+    </symbol>
+    <symbol id="xswitch-off">
+	  <title>X方向开关分</title>
+      <path
+         style="fill:none;"
+         d="m 0,36 24,0" />
+      <path
+         style="fill:none"
+         d="M 16.243239,43.808613 31.99127,28.060582 m -15.748031,3e-6 15.748031,15.748028" />
+      <path
+         style="fill:none"
+         d="m 24,16 24,20 24,0" />
+    </symbol>
+    <symbol  id="xswitch-on">
+	  <title>X方向开关合</title>
+      <path
+         style="fill:none;"
+         d="m 0,36 24,0" />
+      <path
+         style="fill:none"
+         d="M 16.243239,43.808567 31.99127,28.060536 m -15.748031,3e-6 15.748031,15.748028" />
+      <path
+         style="fill:none"
+         d="m 24,36 48,0" />
+    </symbol>
+    <symbol  id="yswitch-on">
+	  <title>Y方向开关合</title>
+      <path
+         style="fill:none"
+         d="m 36.027422,21.661853 c -0.02435,16.7779 -0.04414,33.55581 -0.03583,50.33373" />
+      <path
+         style="fill:none"
+         d="m 35.991591,-0.00441843 0,21.60000143 m -7.200001,7.2 14.400002,-14.4 m -14.400002,0 14.400002,14.4" />
+    </symbol>
+    <symbol id="yswitch-off">
+	  <title>Y方向开关分</title>
+      <path
+         style="fill:none"
+         d="m 57.357469,21.662208 -21.33449,28.259314 0,22.074413" />
+      <path
+         style="fill:none"
+         d="m 36.022979,-0.00406261 0,21.59999961 m -7.2,7.2 14.4,-14.4 m -14.4,0 14.4,14.4" />
+    </symbol>
+  </defs>
+	<use
+	   xlink:href="#y-contactor-on"
+	   x="0"
+	   y="144" />
+	<use
+	   xlink:href="#y-contactor-off"
+	   x="72"
+	   y="144" />
+	<use
+	   xlink:href="#yswitch-off"
+	   x="0"
+	   y="0" />
+	<use
+	   xlink:href="#yswitch-on"
+	   x="0"
+	   y="72" />
+	<use
+	   xlink:href="#xswitch-off"
+	   x="72"
+	   y="0" />
+	<use
+	   xlink:href="#xswitch-on"
+	   x="72"
+	   y="72" />
+	<use
+	   xlink:href="#x-disconnector-off"
+	   x="144"
+	   y="0" />
+	<use
+	   xlink:href="#x-disconnector-on"
+	   x="144"
+	   y="72" />
+	<use
+	   xlink:href="#y-disconnector-off"
+	   x="216"
+	   y="0" />
+	<use
+	   xlink:href="#y-disconnector-on"
+	   x="216"
+	   y="72" />
+</svg>

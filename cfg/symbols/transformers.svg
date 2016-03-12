@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="720"
+   height="1008"
+   version="1.1"
+   style="fill:lightgray;stroke:black;stroke-width:1px">
+  <title>eSCADA transformers</title>
+  <defs>
+    <symbol id="transformer2">
+	  <title>二绕组变压器</title>
+		<g>
+		  <circle
+			 r="12"
+			 cy="27"
+			 cx="36"
+			 style="fill:none" />
+		  <g>
+			<path
+			   style="fill:none;stroke-width:0.5"
+			   d="m 32,30.3 4,-3 0,-4" />
+			<path
+			   style="fill:none;stroke-width:0.5"
+			   d="m 40,30.3 -4,-3" />
+		  </g>
+		</g>
+		<g>
+		  <circle
+			 r="12"
+			 cy="45"
+			 cx="36"
+			 style="fill:none" />
+		  <path
+			 d="m 32,42 8,0 -4,5 z"
+			 style="stroke-width:0.5" />
+		</g>
+    </symbol>
+    <symbol id="onloadtransformer2">
+	  <title>二绕组有载调压变压器</title>
+		<g>
+		  <circle
+			 r="12"
+			 cy="27"
+			 cx="36"
+			 style="fill:none" />
+		  <g>
+			<path
+			   style="fill:none;stroke-width:0.5"
+			   d="m 33,31 3,-4 0,-4" />
+			<path
+			   style="fill:none;stroke-width:0.5"
+			   d="M 40,31 36,27" />
+		  </g>
+		</g>
+		<g>
+		  <circle
+			 r="12"
+			 cy="45"
+			 cx="36"
+			 style="fill:none" />
+		  <path
+			 d="m 32,47 8,0 -4,-5 z"
+			 style="stroke-width:0.5" />
+		</g>
+		<path
+		   style="fill:none;stroke-width:0.5"
+		   d="M 20,34 52,20" />
+		<path
+		   style="stroke-width:0.5"
+		   d="m 49,20 1,2 2,-2 z" />
+    </symbol>
+    <symbol id="transformer3">
+	  <title>三绕组变压器</title>
+		<g>
+		  <circle
+			 r="12"
+			 cy="27.5"
+			 cx="36"
+			 style="fill:none" />
+		  <g>
+			<path
+			   style="fill:none;stroke-width:0.5"
+			   d="m 32,30.8 4,-3 0,-4" />
+			<path
+			   style="fill:none;stroke-width:0.5"
+			   d="m 40,30.8 -4,-3" />
+		  </g>
+		</g>
+		<g>
+		  <circle
+			 r="12"
+			 cy="44.5"
+			 cx="26"
+			 style="fill:none" />
+		  <g>
+			<path
+			   d="m 30,40.8 -4,3 0,4"
+			   style="fill:none;stroke-width:0.5" />
+			<path
+			   d="m 22,40.8 4,3"
+			   style="fill:none;stroke-width:0.5" />
+		  </g>
+		</g>
+		<g>
+		  <circle
+			 r="12"
+			 cy="44.5"
+			 cx="46"
+			 style="fill:none" />
+		  <path
+			 d="m 43,40.5 0,8 5,-4 z"
+			 style="stroke-width:0.5" />
+		</g>
+    </symbol>
+   <symbol id="onloadtransformer3">
+	  <title>三绕组有载调压变压器</title>
+		<g>
+		  <circle
+			 r="12"
+			 cy="27.5"
+			 cx="36"
+			 style="fill:none" />
+		  <g>
+			<path
+			   style="fill:none;stroke-width:0.5"
+			   d="m 32,30.8 4,-3 0,-4" />
+			<path
+			   style="fill:none;stroke-width:0.5"
+			   d="m 40,30.8 -4,-3" />
+		  </g>
+		</g>
+		<g>
+		  <circle
+			 r="12"
+			 cy="44.5"
+			 cx="26"
+			 style="fill:none" />
+		  <g>
+			<path
+			   d="m 22,47.8 4,-3 0,-4"
+			   style="fill:none;stroke-width:0.5" />
+			<path
+			   d="m 30,47.8 -4,-3"
+			   style="fill:none;stroke-width:0.5" />
+		  </g>
+		</g>
+		<g>
+		  <circle
+			 r="12"
+			 cy="44.5"
+			 cx="46"
+			 style="fill:none" />
+		  <path
+			 d="m 43,40.5 0,8 5,-4 z"
+			 style="stroke-width:0.5" />
+		</g>
+		<g>
+		  <path
+			 d="M 13,34 54,21"
+			 style="fill:none;stroke-width:0.5" />
+		  <path
+			 d="M 49,20 50.542708,24.395821 54,21 Z"
+			 style="stroke-width:0.5" />
+		</g>
+    </symbol>
+  </defs>
+	<use
+	   xlink:href="#transformer2"
+	   x="0"
+	   y="0" />
+	<use
+	   xlink:href="#transformer3"
+	   x="0"
+	   y="72" />
+	<use
+	   xlink:href="#transformer2-1"
+	   x="72"
+	   y="0" />
+	<use
+	   xlink:href="#transformer3-1"
+	   x="72"
+	   y="72" />
+</svg>
